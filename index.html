@@ -31,8 +31,16 @@
 								data: ['2017', '2018', '2019', '2020', '2021', '2022']
 							},
 							yAxis: {
-								type: 'value'
-							},
+  type: "value",
+},
+title: {
+  subtext: "单位（亿人）",
+  left: 5,// 距离左边位置
+  top: 18,// 距离上面位置
+  subtextStyle:{ // 设置二级标题的样式
+    color:"black"
+  }
+},
 							series: [{
 								data: [185, 179, 176, 97, 83, 56],
 								type: 'bar',
